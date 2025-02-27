@@ -1,4 +1,9 @@
 {
+  "name": "TaskVault",
+  "version": "1.0.0",
+  "scripts": {
+    "publish": "npm run build && changeset publish"
+  },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.28.1"
